@@ -1,0 +1,284 @@
+    :root{
+        --regular: 400;
+        --bold: 700;
+        --cab: 'Cabin',sans-serif;
+        --lobs: 'Lobster', cursive;
+       --black:#000;
+       --white:#fff;
+       --danger:#dc3545;
+       --grisObs:#373a3c;
+       --grisClaro:#dddddd;
+    }
+    
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', cursive;
+    }
+    
+    /* navbar */
+.navbar{
+    background-color: var(--grisObs);
+    color: var(--white);
+}
+#ricomida{
+    font-family: var(--lobs);
+    font-weight: var(--regular);
+    font-size: 37px;
+    color: var(--white);
+}
+.nav-item a{
+    font-family: var(--cab);
+    font-weight: var(--regular);
+    font-size: 16px;
+    color: var(--white);
+}
+
+/*header*/
+
+.containerHero{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.line3{
+    border:var(--black) solid 1px;
+    }
+
+.imgHero{                       
+    margin-top: 20px;
+}
+.principal{
+    max-width: 100%;
+    height:auto
+}
+h1{
+    font-family: var(--cab);
+    font-weight: var(--bold);
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+    color: var(--grisObs);
+}
+.separador1{
+    border: var(--black) solid 1px;
+}
+
+
+.pHero{
+    font-family: var(--cab);
+    font-weight: var(--bold);
+    font-size: 16px;
+    color: var(--grisObs);
+    text-align: center;
+}
+.btnHero{
+    border: var(--grisClaro) solid 1px;
+    border-radius: 4px;
+    color: var(--grisObs);
+    font-family: var(--cab);
+    font-weight: var(--regular);
+    font-size: 13px;
+}
+.btnHero_1{
+margin-right: .5%;
+}
+.btnHero_2{
+margin-left: .5%;
+}
+
+/* seccion receta */
+
+.subt_preparacion{
+    padding: 7% 0 3% 0;
+}
+
+
+.subt_ingredientes, .ingredientes, .subt_preparacion, .preparacion{
+    font-family: var(--cab);
+    font-weight: var(--regular);
+    font-size: 16px;
+    color: var(--grisObs);
+}
+
+/* entre secciones */
+.separador5{
+    border: var(--black) solid 1px;
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+/* seccion recetas_relacionadas */
+.r_relacionadas{
+    font-family: var(--cab);
+    font-weight: var(--bold);
+    font-size: 25px;
+    text-align: center;
+    color: var(--grisObs);
+    margin-bottom: 7%;
+}
+.cnombre{
+    font-family: var(--cab);
+    font-weight: var(--bold);
+    font-size: 17px;
+    text-align: left;
+    color: var(--grisObs);
+}
+.ctexto{
+    font-family: var(--cab);
+    font-weight: var(--regular);
+    font-size: 16px;
+    text-align: left;
+    color: var(--grisObs);
+}
+
+/* seccion suscripcion */
+#suscripcion{
+    background-color: var(--danger);
+    width: 100%;
+    height: auto;
+    padding: 100px 30px;
+    
+   
+}
+#suscripcion h2{
+    font-family: var(--cab);
+    font-weight: var(--bold);
+    font-size: 30px;
+    text-align: center;
+    color: var(--white);
+}
+#suscripcion h3{
+    font-family: var(--cab);
+    font-weight: var(--regular);
+    font-size: 20px;
+    text-align: center;
+    color: var(--white);
+    padding-top: 5px;
+}
+#suscripcion h3 span{
+    font-family: var(--lobs);
+    font-weight: var(--regular);
+    font-size: 20px;
+    text-align: center;
+    color: var(--white);
+}
+.boton_suscripcion{
+    border: var(--grisClaro) solid 1px;
+    border-radius: 4px;
+    font-family: var(--cab);
+    font-weight: var(--regular);
+    font-size: 16px;
+    color: var(--white);
+    margin-top: 5%;
+    padding: 1% 30%;
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--grisObs);
+    width: 100%;
+    height: auto;
+    padding: 70px;
+    font-family: var(--lobs);
+    font-weight: var(--regular);
+    color: var(--white);
+}
+.footer h3{
+    font-size: 37px;
+}
+
+
+/* media querys */
+
+@media (min-width:768px) {
+h1{
+    font-size: 40px;
+}
+.pHero{
+    font-size: 20px;
+    color: var(--grisObs);
+}
+.btnHero{
+    font-size: 16px;
+}
+#carrusel{
+    margin-top: 70px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.fotos-carrusel{
+    display: inline-flex;
+    width: 250px;
+    height: 200px;
+    margin: 8px;
+}
+.separador2{
+    border: var(--black) solid 1px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 50px;
+}
+.separador3{
+    border: var(--black) solid 1px;
+    width: 127px;  
+    margin-top: -1px;  
+}
+.separador4{
+    border: var(--black) solid 1px;
+    width: 127px;    
+    margin-left: 5px;
+    margin-top: -8px;
+}
+.subt_ingredientes{
+    margin-top: 15px;
+}
+.subt_preparacion{
+    margin-top: -12px;
+}
+.subt_ingredientes, .ingredientes, .subt_preparacion, .preparacion{
+    font-size: 20px;
+}
+.separador5{
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+#recetas_relacionadas{
+    margin-bottom: 8%;
+}
+.r_relacionadas{    
+    font-size: 40px;
+    text-align: center; 
+    margin-bottom: 5%;  
+}
+.cnombre{
+    
+    font-size: 23px;
+    text-align: left;
+   }
+   .ctexto{
+    font-size: 16px;
+    text-align: left;
+    color: var(--grisObs);
+}
+#suscripcion h2{    
+    font-size: 40px;
+    text-align: center;
+}
+#suscripcion h3{
+    font-size: 30px;
+    text-align: center;
+}
+.boton_suscripcion{
+    margin-top: 3%;
+    padding: 1% 10%;
+}
+}
